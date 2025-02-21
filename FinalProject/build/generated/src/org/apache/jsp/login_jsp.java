@@ -11,6 +11,11 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   private static java.util.List<String> _jspx_dependants;
 
+  static {
+    _jspx_dependants = new java.util.ArrayList<String>(1);
+    _jspx_dependants.add("/footer.jsp");
+  }
+
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
 
   public java.util.List<String> getDependants() {
@@ -66,7 +71,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                </div>\n");
       out.write("                <div class=\"remember-forget\">\n");
       out.write("                    <label>  <input type=\"checkbox\"/>Remember me</label>\n");
-      out.write("                    <a href=\"#\">Forgot Password?</a>\n");
+      out.write("                    <a href=\"ResetPW.jsp\">Forgot Password?</a>\n");
       out.write("                </div>\n");
       out.write("                <button type=\"submit\" class=\"button\">Log in</button>\n");
       out.write("                <div class=\"register-link\">\n");
@@ -75,6 +80,21 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                </div>\n");
       out.write("            </form>\n");
       out.write("        </div>\n");
+      out.write("        ");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>JSP Page</title>\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("        <h1>Contact us pls</h1>\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+      out.write("\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

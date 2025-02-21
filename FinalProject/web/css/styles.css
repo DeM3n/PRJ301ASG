@@ -9,14 +9,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img/Register.jpg) no-repeat;
+    background: url(../img/LOOL.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 .loginpage {
     width: 420px;
     color: white;
-    background:black;
+    background:transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
     border-radius: 20px;
     padding: 30px 40px;
 }

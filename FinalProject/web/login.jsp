@@ -27,7 +27,7 @@
                 </div>
                 <div class="remember-forget">
                     <label>  <input type="checkbox"/>Remember me</label>
-                    <a href="#">Forgot Password?</a>
+                    <a href="ResetPW.jsp">Forgot Password?</a>
                 </div>
                 <button type="submit" class="button">Log in</button>
                 <div class="register-link">
@@ -36,5 +36,6 @@
                 </div>
             </form>
         </div>
+        <%@include file="footer.jsp" %>
     </body>
 </html>
