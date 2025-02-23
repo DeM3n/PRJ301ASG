@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <footer>Xin hay lien lac chung toi</footer>
+        <footer>Xin hay lien lac chung toi @gmailcasdasd</footer>
     </body>
 </html>
