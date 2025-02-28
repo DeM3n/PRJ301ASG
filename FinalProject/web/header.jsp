@@ -4,7 +4,6 @@
     Author     : no-solace
 --%>
 
-<%@page import="dto.UserDTO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -153,10 +152,6 @@
     </head>
 
     <body>
-        <%
-            if (session.getAttribute("user") != null) {
-                UserDTO user = (UserDTO) session.getAttribute("user");
-        %>
 
         <header class="header">
             <div class="logo">
@@ -172,16 +167,10 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <% if (user == null) { %>
             <div class="user-section">
                 <button class="signin" onclick="window.location.href = 'login.jsp'"> <span
                         class="fa fa-user icon-person"></span>Sign in</button>
             </div>
-            <% } else {%>
-            <div class="user-section">
-                <h1>Welcome, <%=user.getUsername()%></h1>
-            </div>
-            <%}%>
         </header>
 
     </body>
