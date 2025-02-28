@@ -5,14 +5,25 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-    display: flex;
-    justify-content: center;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     min-height: 100vh;
     background: url(../img/LOOL.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background-position: center;   
 }
+.container {
+  flex: 1; /* Pushes footer down */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
 .loginpage {
     width: 420px;
     color: white;
