@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
            <link rel="stylesheet" href="css/footer.css">
    
    
@@ -32,9 +32,9 @@
         <div class="footer-social">
             <p>Follow us:</p>
             <ul>
-                <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"> Facebook</a></li>
-                <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="YouTube"> YouTube</a></li>
-                <li><a href="https://www.tiktok.com" target="_blank"><img src="img/tiktok.png" alt="TikTok"> TikTok</a></li>
+                 <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+        <li><a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
             </ul>
         </div>
     </div>
