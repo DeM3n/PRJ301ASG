@@ -22,14 +22,11 @@
         /* Body Styling */
         body {
             background-color: #FAFAFA;
-            /* Màu nền nhẹ nhàng */
             color: #2C2C2C;
-            /* Màu chữ thanh lịch */
             line-height: 1.8;
             font-size: 18px;
         }
 
-        /* Header */
         .header {
             width: 100%;
             background-color: #FFFFFF;
